@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to my robotic project
 
-You can use the [editor on GitHub](https://github.com/jack892/robotic-project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I've upgrade an old robotic project made by a group of guys for an university project, with the help of my co-worker [Alessandro](https://github.com/AMDeveloperC).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The main project is developed to be run on a microcontroller, Galileo v2 by Intel, the purpose was to drive a little car by hand gesture with the [SparkFun RGB and Gesture Sensor](https://www.sparkfun.com/products/12787).
 
-### Markdown
+Our upgrade consist to add a new feature to the little car, allow it to bypass an obstacle by itself. We used [PING)))™ ultrasonic sensor](https://www.parallax.com/product/28015), which it shoot an ultrasonic burst (well above human hearing) and then "listen" for the echo return pulse. The sensor measures the time required for the echo return,in this way we can calculate the distance between the snesor and the obstacle.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Below you can see our .ino file we have written to configure the sensor and its functionality to merge at the main project and than adding the new feature.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jack892/robotic-project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
