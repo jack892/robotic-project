@@ -1,0 +1,23 @@
+3,7c3,5
+< # NATIVE_NAME = x86_64-pokysdk-linux
+< # TARGET_NAME = core2-32-poky-linux
+< TARGET_NAME = i586-poky-linux
+< NATIVE_NAME = i386-pokysdk-darwin
+< GCC_VERSION = 4.8.2
+---
+> TARGET_NAME = i586-poky-linux-uclibc
+> NATIVE_NAME = x86_64-pokysdk-linux
+> GCC_VERSION = 4.7.2
+24c22
+< CC      = $(TOOLDIR)/i586-poky-linux-g++
+---
+> CC      = $(TOOLDIR)/i586-poky-linux-uclibc-g++
+28c26
+< AR      = $(TOOLDIR)/i586-poky-linux-ar
+---
+> AR      = $(TOOLDIR)/i586-poky-linux-uclibc-ar
+39c37
+< 	rm -f $(TARGET_BIN) *.o
+---
+> 	rm -f $(TARGET_BIN) *.o
+\ No newline at end of file

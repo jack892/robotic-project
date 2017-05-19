@@ -1,0 +1,5 @@
+brown	3		dx
+black	gnd		dx
+orange	3v		sx
+green	a4		sx
+red		a5		sx
